@@ -84,6 +84,14 @@ figure.hero img {
 /* タイトル */
 h1 {
     grid-row: title;
+    justify-self: center;
+    align-self: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 1.2;
+    text-shadow: 0 0 5px #444444;
+    text-align: center;
 }
 
 /* サブタイトル */
