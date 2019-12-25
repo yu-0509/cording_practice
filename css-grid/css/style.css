@@ -97,6 +97,16 @@ h1 {
 /* サブタイトル */
 p {
     grid-row: sub;
+    text-align: center;
+}
+
+p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p img {
+    width: 250px;
 }
 
 /* 記事一覧 */
