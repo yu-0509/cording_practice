@@ -122,6 +122,19 @@ p img {
 /* 記事一覧 */
 section {
     grid-row: recent;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px 10px;
+    gap: 20px 10px;
+}
+
+section a {
+    color: #000000;
+    text-decoration: none;
+}
+
+section h2 {
+    font-size: 14px;
 }
 
 /* フッター */
