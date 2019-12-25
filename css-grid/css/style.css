@@ -103,6 +103,16 @@ p {
 p a {
     color: #ffffff;
     text-decoration: none;
+    border: solid 1px #ffffff;
+    padding: 10px 40px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(85, 93, 107, 0.5);
+}
+
+p a:hover {
+    background-color: #ef9504;
 }
 
 p img {
